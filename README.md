@@ -5,3 +5,4 @@ Will be updated from time to time!<br />
 **NVIDIA** ✔<br />
 **DirectX** **+ additional** ✔ <br />
 **GPU** ✔<br />
+**Filesystem** ✔<br />
