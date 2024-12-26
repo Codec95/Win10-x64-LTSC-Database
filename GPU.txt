@@ -1,5 +1,5 @@
  
- / GPU findings under:
+ / GPU related:
 
     // [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\000X] < replace X with your GPU location
 
