@@ -1,359 +1,206 @@
-NVIDIA related:
 
-// [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm]
+ / NVIDIA related:
 
-ACPIIdDynamicMapping
-ActiveUIForceCoprocMode
-AddDeviceSequence
-AllocatePrivateContextChannelAtContextCreation
-AllowdGPUPassthrough
-AllowHistoryBufWithoutStablePwr
-AllowHWGC6
-allowMaxSparseVA
-AllowQuadroOnExternalBUS
-AllowRestrictedTeslaOnWDDM
-AllowSLIBridgedMosaic
-AllowSLIReleasePostDisplayOwnership
-allowVRROverVideoBridge
-BreakOnRc
-BuffersInFlight
-CachedHeapSize
-CcCoherencyFlushAndPurgeCache
-CMemoryAllocatorCallStackDepth
-CMemoryAllocatorFlags
-CMemoryAllocatorFreeCount
-CMemoryAllocatorOn
-ColorDepthPolicy
-ColorformatConfig
-ColorspaceConfig
-ColorSpaceLutRegistryKey
-CoprocPowerState
-CppKernelNotEnforced
-CpuHostApertureMappableSize
-CPUVisibleHeap
-curCpuPstate
-DD1674070
-DD1715710
-ddBringupOptions
-DDIBacklightControl
-DEBLOCKINGDATA
-DefaultResPolicy
-DelayBlankPolicy
-DestroyAllocationAssumeNotInUse
-DevSwitchSuppressMask
-DFPModePruningPolicy
-Disable4GBTAGLimit
-Disable4GBTAGLimitAddendum
-Disable_xvYCC
-DisableBugcheckCallback
-DisableCudaContextPreemption
-DisableD3ColdOnStopDevice
-disableDither
-DisableDWMContexts
-DisableGrayscaleDeviceMask
-DisableHDTVRes
-DisableHPDFakeMonitor
-DisableKmRender
-DisableKmRenderBoost
-DisableKmRenderStage
-disableLutForRGB16
-DisableMonitorSyncPolarityOverride
-DisableMosaicSinglePageBar1
-DisableMSHybridCopyCQHas3D
-DisableNonMigratableSegment
-DisablePreemption
-DisablePreemptionOnS3S4
-disableRS2HdrYuv422
-DisableSLIMMNHead
-DisableSysInfoUpdate
-DisableTRCOnPreWin10
-DisableWriteCombining
-disengage
-displayCapsCtrl
-displayDefaultPolicy
-DisplayLessPolicy
-DisplayPort10bpcPolicy
-DisplayPortCfgPolicy
-DitherRegistryKey
-DitherToBpcAlgo
-DmiOverride
-DohicFrameLockPolicy
-DriverManagesResidency
-DSREnableNB
-DualConnectorTileDisplay
-DualOverscanRatioThreshold
-DXVA_FILMGRAINBUFFER
-DXVA_RESERVED10
-DXVA_RESERVED11
-DXVA_RESERVED12
-DXVA_RESERVED13
-DXVA_RESERVED14
-DXVA_RESERVED15
-DXVA_RESERVED16
-DXVA_RESERVED17
-DXVA_RESERVED18
-DXVA_RESERVED19
-DXVA_RESERVED20
-DXVA_RESERVED21
-DXVA_RESERVED22
-DXVA_RESERVED23
-DXVA_RESERVED24
-DXVA_RESERVED25
-DXVA_RESERVED26
-DXVA_RESERVED27
-DXVA_RESERVED28
-DXVA_RESERVED29
-DXVA_RESERVED30
-DXVA_RESERVED31
-DXVA_RESERVED9
-DXVACOMPBUFFER_MAX
-EccBlockSize
-Enable1916
-Enable1to1CompTagMapping
-Enable_xvYCCForITFormats
-EnableAggressivePStateOnly
-EnableAllocationMigration
-EnableAsyncMidBufferPreemption
-EnableAvoidTDROnSurpriseRemovalWAR
-EnableBlackListingSurpriseRemovalWAR
-EnableBugcheckDisplay
-EnableBugcheckTinting
-EnableCEPaging
-EnableCEPreemption
-EnableCheckSyncPolarity
-EnableColorSpaceConfig
-EnableColorSpaceProfileMgmt
-EnableComputeReset
-EnableCoproc
-EnableCoprocPowerControl
-EnableCoprocStatistics
-EnableDirectFlip
-enableDirectFlipFor3dLut
-enableDisplayColorTransformCapability
-EnableDriverControlledPMM
-enableDVIPClkLimitOverride
-EnableDx12OnMsHybrid
-EnableDx12OnOptimus
-EnableDynamicEdidMode
-EnableEDIDColorCharMgmt
-EnableForceIgpuDgpuFromUI
-EnableFSN1368
-EnableFSN1945
-EnableFSN511
-EnableGC6InDisplayOffState
-EnableGFESharedMemory
-EnableGlitchlessAudio
-EnableHDAudioD3Cold
-EnableHotplugOnDesktop
-EnableIndependentFlip
-EnableKMBufferResetEngineOnNonSLI
-EnableLoadImage
-EnableMemoryTiling
-EnableMidBufferPreemption
-EnableMidBufferPreemptionForHighTdrTimeout
-EnableMidGfxPreemption
-EnableMidGfxPreemptionVGPU
-EnableMidGfxpSharedBuffer
-EnableMonitorActivationPriority
-EnableMosaicBlitSlicing
-EnableMsHybrid
-EnableMsHybridHeads
-enableMultiHeadsGpuScalingOnTiledMonitor
-EnableNonContiguousSVM
-EnableNopPaddingMBP
-EnablePageFaultDebugOutput
-EnablePerformanceMode
-EnablePollPassiveDongle
-enableQueryIntegratedDisplay
-enableRblTestPattern
-enableRblWriteFromDD
-EnableRedundantAdapterCheckingForXGPU
-EnableRegistry
-EnableReleaseDisplayOwnership
-EnableResetEngine
-EnableResourcesFiltering
-EnableRewind
-EnableRGSExtensions
-EnableRID50422
-EnableRID50787
-EnableRID55117
-EnableRID57152
-EnableRID58285
-EnableRID59926
-EnableRID64949
-EnableRID65715
-EnableRID68264
-EnableRmEscape
-enableRS2FlipCollapse
-enableRS2ImmediateFlipCompletionReporting
-enableRS2VSyncToImmediateFlipConversion
-EnableRTD3
-EnableRuntimePowerManagement
-EnableSCGMidBufferPreemption
-EnableSegmentPreservation
-enableSmartDimmer
-EnableSpanWithoutVideoBridge
-EnableSparseTexture
-EnableStereoHDMIDynamicEngage
-EnableStereoModes
-EnableSurroundOnMobile
-EnableSWFlipMetering
-EnableSystemMemoryTiling
-EnableTiledDisplay
-EnableTLBInvalidateOpt
-EnableValidationOfGPUMemoryAddressability
-enableVideoWithOneShotMode
-EnableVirtualChannels
-enableVrrCursorRelease
-enableVrrDisplayValidation
-enableVrrExtendedScan
-enableVrrFrameSmoothing
-enableVrrLowFreqFrameTimeEstimation
-enableVrrMethodMode
-enableVrrModeFilter
-enableVrrOneShotMode
-EnableWARLBDATEXTRA
-EnableWDDMVirtualCE
-EnableXGPUSupport
-EncodePattern
-EsGpuForceMode8x6
-EshiftEmulationMode
-F1TransitionLatency
-FastResume
-FeatureControl
-ForceCbCopyToSysMemAtTransferVirtual
-ForceCEBasicPrime
-ForceCrossAdapterSurfacesToCachedMem
-ForceCVT-RB1600x1200x60
-ForceDLDVIOn4kTileDisplay
-ForceMultiAudioStreamCap
-forceNVSRCrashSyncMethod
-forceNVSRExternalDeviceWAR
-forceRblProgramming
-ForceSwYCbCr422
-ForceTVConnected
-ForceVAAlignment2M
-forceVrrExtendedActiveLines
-forceVrrTearingMode
-GiantPanScan
-GsyncTimingOptimizationPolicy
-HdrOverride
-IoValidateDeviceIoControlAccess
-KeGetCurrentProcessorNumberEx
-KeQueryActiveGroupCount
-KeQueryActiveProcessorCountEx
-KeQueryGroupAffinity
-KeSetSystemGroupAffinityThread
-KMD22181813124
-KMD25078517310
-Kmd3dLutSize
-KMD51487632904
-KMD71270201608
-KMD82620161457
-KMD_StackTraceControl
-KmdHeapSize
-LimitDPAudio48K16b2ch
-LimitOptimusToWDDM12
-LimitOptimusToWDDM13
-LimitOptimusToWDDM21
-LimitQuadroTAGTo4GB
-LimitSegmentsTo4GB
-LimitVideoPresentSources
-LimitVprSize
-MappableVideoSize
-MaxAllowedExternalMonitors
-MaxGfxpSupportNumber
-MaxHybridSurfSize
-MaxSystemMemorySize
-MergeOPMCode
-minimumFramePeriod100Ns_FRL21
-minInterval
-minLimtNoUtil
-minValueNoUtil
-minVrrCursorFPS
-ModePersistence
-ModeRestriction
-MonitorAudioData
-MonitorCapabilityList
-MOTIONVECTORBUFFER
-MoveToBufferBoundaryPreemption
-NVFBCEnable
-PageFaultDebugMode
-PagingBufferSize
-PagingTransferLimit
-PreferCoprocOverHybrid
-PreferSystemMemoryContiguous
-PreferSystemMemoryPTEs
-PreferSystemMemoryScratch
-PresentSyncAdaptiveVblankTimeoutMode
-PresentSyncAppTimeoutMS
-PresentSyncVblankTimeoutMS
-PrimaryPushBufferSize
-PushBufferLocation
-RefCountSuppression
-RMUseAggressiveGC6
-RsvdPhysicalChannels
-RunOnlyNVSR
-SetDefaultFullRGBRangeOnHDMI
-SetPanelRefreshRate
-ShowEvalModeOverlay
-SkipBackendImpCheck
-SkipCpuVisibleHeapBar1Check
-SkipModesetOnResume
-SmoothScalingData
-SmoothScalingMultiplierData
-SpoolUpOverride
-UseBestResolution
-useNearestNeighborFilter
-UseOptimizedUpdatePTEvGPUwddm1
-UseOptimizedUpdatePTEWddm1
-UseOptimizedUpdatePTEWddm2
-UsePrivateNonStaticDSRShaderResources
-UserModeDriverName
-UserModeDriverNameNOSHIM
-UserModeDriverNameWow
-UserModeDriverNameWowNOSHIM
-UseSelfRefreshVRAMInS3
-ValidateBlitSubRects
-VGXTimerDelay
-VGXTimerResolution
-VRRAlwaysOn
-WDDM1xUseContextAllocation
-WDDM20UseContextAllocation
-WDDMCPUHostApertureSupported
-WDDMPagingVASupported
-WDDMv21Enable2MPageSupport
-WDDMv21Enable64KbSysmemSupport
-WDDMV21EnableDualPteForCPUVisible
-WDDMv21EnableMovePaging
-WDDMv21EnableVprPagingContext
-WDDMv21EnableVPRSLI
-WDDMv21Force2MSizeAlignment
-WDDMv21VprProfile
-WDDMv22EnableSetTimingsDdi
-WDDMv22EnableSmoothTransition
-WDDMV2_128K_PTE
-WDDMv2AllowHwResourcePerGPU
-WDDMv2DisableBasicPrimeForGPUVA
-WDDMv2DisableCE1Virtualization
-WDDMv2DisableRenderGDI
-WDDMv2DisableSLICEVirtualChannels
-WDDMv2DisableSLIVirtualChannels
-WDDMv2DisableSlowCePagingWar
-WDDMv2DisableVirtualChannels
-WDDMV2DoNotUseRealVpr
-WDDMv2EnableFermiWDDMv2
-WDDMv2EnableGdiBroadcast
-WDDMv2EnableSLI
-WDDMv2EnableSLILinkMirroredWAR
-WDDMv2ForceCE1SwitchOnContextEvict
-WDDMv2ForceEngineResetForPageFault
-WDDMv2ForceInvalidateAllCpuCache
-WDDMV2HandleLockManagement
-WDDMv2IdleAddressSpaceForPTUpdate
-WDDMv2InvalidatePDEsForReserveVA
-WDDMv2KmdHighAddrReserve
-WDDMv2PresentNotifyForFlipEx
-WDDMv2PTUpdateGPUVirtual
-WDDMv2ReserveVASpaceSize
-WDDMv2ReserveVASpaceSizeForNvFBC
+    // [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm]
+
+27848,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x01abac23
+27849,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11112233
+27850,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11112255
+27851,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11112256
+27852,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x112493bd
+27853,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11301a5a
+27854,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11333333
+27855,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11424d6a
+27856,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x117cd1d5
+27857,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x118ad143
+27858,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x1191e8ab
+27859,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x1194f158
+27860,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11aa9e99
+27861,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11ae435c
+27862,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11c776e0
+27863,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11d9dc84
+27864,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11e91a61
+27865,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 0x11fbdf11
+27866,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 1600877NV
+27867,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : 1893545NV
+27868,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : AllowdGPUPassthrough
+27869,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : AllowEscapesInCompatMode
+27870,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : AllowHWGC6
+27871,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : AllowVgpuTcc
+27872,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : AllowWddmOnTesla
+27873,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : bForceDualVideoBridgeMode
+27874,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : BootFlags
+27875,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : BuffersInFlight
+27876,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : checkForIsrBufferIDProgressAtDpc
+27877,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : CMemoryAllocatorCallStackDepth
+27878,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : CMemoryAllocatorFlags
+27879,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : CMemoryAllocatorFreeCount
+27880,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : CMemoryAllocatorOn
+27881,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : CppKernelNotEnforced
+27882,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DestroyAllocationAssumeNotInUse
+27883,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableBugcheckCallback
+27884,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableCudaContextPreemption
+27885,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableDeferredMidbufferPostProcessing
+27886,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableDWMContexts
+27887,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableForcedRMHwSchedulingWARs
+27888,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableKmRender
+27889,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableKmRenderBoost
+27890,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableKmRenderStage
+27891,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableMSHybridCopyCQHas3D
+27892,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisableMshybridNvsrSwitch
+27893,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisablePreemption
+27894,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DisablePreemptionOnS3S4
+27895,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DispCtrl
+27896,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DriverDebugBreakMode
+27897,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DriverManagesResidency
+27898,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : DriverModel
+27899,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EGPULockReOrderingWAR
+27900,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EmuCalibrateGPUClock
+27901,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : Emulator
+27902,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EmulatorDeviceMask
+27903,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableAsyncMidBufferPreemption
+27904,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableBlackListingSurpriseRemovalWAR
+27905,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableBugcheckDisplay
+27906,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableBugcheckTinting
+27907,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableCcx
+27908,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableCEFormatConversion
+27909,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableCEPaging
+27910,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableCEPreemption
+27911,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableComputeReset
+27912,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableCrossAdapterResource
+27913,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableDIFR
+27914,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableDirectFlip
+27915,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableDx12OnMsHybrid
+27916,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableDynamicEdidMode
+27917,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableEGpuGuard
+27918,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableFocusElevationWAR
+27919,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableForceIgpuDgpuFromUI
+27920,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableFSN1368
+27921,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableGFESharedMemory
+27922,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableHDAudioD3Cold
+27923,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableHdr10Scanout
+27924,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableHopperMMUV3
+27925,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableIMPSetGetParams
+27926,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableIoMmu
+27927,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableIommuIsolationOnWDDM216
+27928,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableIoMmuOnSLI
+27929,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableKMBufferResetEngineOnNonSLI
+27930,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableLoadImage
+27931,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableLoggingInterface
+27932,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableMidBufferPreemption
+27933,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableMidBufferPreemptionForHighTdrTimeout
+27934,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableMidGfxPreemption
+27935,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableMidGfxPreemptionVGPU
+27936,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableMidGfxpSharedBuffer
+27937,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableMosaicBlitSlicing
+27938,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableNodeCuda
+27939,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableNopPaddingMBP
+27940,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableNvLinkControlObject
+27941,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnablePageFaultDebugOutput
+27942,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnablePerformanceMode
+27943,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableRedundantAdapterCheckingForXGPU
+27944,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableRegistry
+27945,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableReleaseDisplayOwnership
+27946,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableRewind
+27947,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableRmEscape
+27948,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableSCGMidBufferPreemption
+27949,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableSegmentPreservation
+27950,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableSparseTexture
+27951,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableTestEscapes
+27952,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableValidationOfGPUMemoryAddressability
+27953,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableVgpuLogLevel
+27954,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EnableWARLBDATEXTRA
+27955,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : EvoTimeoutBugcheck
+27956,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ForceCrossAdapterSurfacesToCachedMem
+27957,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ForceVAAlignment2M
+27958,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : GC6Threshold
+27959,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : HDAudioCoprocDynamicDelayRefresh
+27960,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : HyperSamplingSettings
+27961,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ImagePath
+27962,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : InvalidateTlbByPDEOne
+27963,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : KMD_StackTraceControl
+27964,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : LargeSurfSizeBy2DFill
+27965,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : LogDisableMasks
+27966,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : LogEnableMasks
+27967,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : LogErrorEntries
+27968,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : LogEventEntries
+27969,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : LogPagingEntries
+27970,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : LogWarningEntries
+27971,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : MaxGfxpSupportNumber
+27972,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : MaxHybridSurfSize
+27973,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : MCDMSupported
+27974,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : MergeFECSandTSLogs
+27975,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ModsMode
+27976,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : MoveToBufferBoundaryPreemption
+27977,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : NodeCudaTimeSlice
+27978,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : NVFBCEnable
+27979,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ObjectName
+27980,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PageFaultDebugMode
+27981,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PCIEPowerControl
+27982,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PCIEPowerControl_80863e3086941043
+27983,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PCIEPowerControl_80863e3086941043_10de2203466619da
+27984,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PerfAnalyzeMidBufferPreemption
+27985,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PnpFlags
+27986,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PreferSystemMemoryContiguous
+27987,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PreferSystemMemoryPTEs
+27988,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PreferSystemMemoryScratch
+27989,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PresentSyncAdaptiveVblankTimeoutMode
+27990,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PresentSyncAppTimeoutMS
+27991,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PresentSyncVblankTimeoutMS
+27992,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PrimaryPushBufferSize
+27993,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : prtBreak
+27994,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : prtLevel
+27995,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PStateControlType
+27996,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : PushBufferLocation
+27997,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : RealTimeRunlist
+27998,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : RealTimeRunlistLimitMs
+27999,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ReleaseAssertBehavior
+28000,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ReportPageFaultInterrupt
+28001,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ReportVblankImmediatelyOnDisplaylessHw
+28009,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : RotateFlag
+28010,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : RSI_Enable
+28011,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : SchedulerLogDebugMode
+28012,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : SemaphoreLocation
+28013,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : Start
+28014,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : TargetNormalBandPercentageMultiplier
+28015,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : TargetNormalBandPercentageTimeInterval
+28016,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : TDRTestEnableTiming
+28017,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : Type
+28018,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : UMDPowerFeatureConfig
+28019,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : Usb4DisplayControl
+28020,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : UseCompressibleKindForSystemProcess
+28021,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : UseDpcForGpuWatchdogCallback
+28022,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : UsePrivateNonStaticDSRShaderResources
+28023,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : useSemaphoreMgrForGpu
+28024,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : UvmDisable
+28025,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : ValidateBlitSubRects
+28026,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WakeUpAllAdapters
+28027,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDM1xUseContextAllocation
+28028,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDM20UseContextAllocation
+28029,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMPagingVASupported
+28030,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMV2_128K_PTE
+28031,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv21Enable2MPageSupport
+28032,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv21Enable64KbSysmemSupport
+28033,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMV21EnableDualPteForCPUVisible
+28034,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv21EnableMovePaging
+28035,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv21EnableVprPagingContext
+28036,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv21EnableVPRSLI
+28037,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv21Force2MSizeAlignment
+28038,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv21VprProfile
+28039,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv22EnableSetTimingsDdi
+28040,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv22EnableSmoothTransition
+28041,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2AllowHwResourcePerGPU
+28042,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2CPUHostBar1Percentage
+28043,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2DisableBasicPrimeForGPUVA
+28044,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2DisableRenderGDI
+28045,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2DisableSlowCePagingWar
+28046,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMV2DoNotUseRealVpr
+28047,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2EnableGdiBroadcast
+28048,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2EnableSLILinkMirroredWAR
+28049,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2ForceEngineResetForHwError
+28050,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMV2HandleLockManagement
+28051,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2InvalidatePDEsForReserveVA
+28052,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2PresentNotifyForFlipEx
+28053,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMV2RmUnlinkedSLI
+28054,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2SupportPageTableInSystemMemory
+28055,,,\Registry\Machine\system\ControlSet001\services\nvlddmkm : WDDMv2vEnableSLIonCV
