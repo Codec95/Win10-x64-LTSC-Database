@@ -4,3 +4,4 @@ Will be updated from time to time!<br />
 <br />
 **NVIDIA** ✔<br />
 **DirectX** **+ additional** ✔ <br />
+**GPU** ✔<br />
