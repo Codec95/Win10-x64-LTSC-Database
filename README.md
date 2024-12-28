@@ -7,4 +7,5 @@ Will be updated from time to time!<br />
 **DirectX** **+ additional** ✔ <br />
 **GPU** ✔<br />
 **Filesystem** ✔<br />
+**INTEL** ❌<br />
 **Kernel** ✔ (experimental)<br /> 
