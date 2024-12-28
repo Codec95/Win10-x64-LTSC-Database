@@ -8,4 +8,5 @@ Will be updated from time to time!<br />
 **GPU** ✔<br />
 **Filesystem** ✔<br />
 **INTEL** ❌<br />
+**Desktop Window Manager** (DWM) ✔<br />
 **Kernel** ✔ (experimental)<br /> 
