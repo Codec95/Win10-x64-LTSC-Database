@@ -3,6 +3,7 @@ Just some valid Registry Dwords found in Windows 10 x64 (LTSC)<br />
 Will be updated from time to time!<br />
 <br />
 **NVIDIA** ✔<br />
+**AMD** ❌<br />
 **DirectX** **+ additional** ✔ <br />
 **GPU** ✔<br />
 **Filesystem** ✔<br />
