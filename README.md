@@ -6,3 +6,4 @@ Will be updated from time to time!<br />
 **DirectX** **+ additional** ✔ <br />
 **GPU** ✔<br />
 **Filesystem** ✔<br />
+**Kernel** ✔ (experimental)<br /> 
