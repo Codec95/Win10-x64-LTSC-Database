@@ -1,0 +1,16 @@
+
+ / Multimedia scheduling related:
+
+    // [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+
+18158,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : SystemResponsiveness
+18159,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : SchedulerTimerResolution
+18160,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : SchedulerPeriod
+18161,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : NoLazyMode
+18162,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : NetworkThrottlingIndex
+18163,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : MaxThreadsTotal
+18164,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : MaxThreadsPerProcess
+18165,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : LazyModeTimeout
+18166,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : IdleDetectionCycles
+18906,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : SystemResponsiveness
+19605,,,\Registry\Machine\software\Microsoft\Windows NT\CurrentVersion\MultiMedia\systemprofile : SystemResponsiveness
