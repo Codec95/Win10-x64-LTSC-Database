@@ -12,3 +12,5 @@ There may be more/other Registry entrys using different tools like e.g ProcMon<b
 **INTEL** ❌<br />
 **Desktop Window Manager** (DWM) ✔<br />
 **Kernel** ✔ (experimental)<br /> 
+**Multimedia** ✔<br />
+
