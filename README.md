@@ -6,7 +6,7 @@ There may be more/other Registry entrys using different tools like e.g ProcMon<b
 <br />
 **NVIDIA** ✔<br />
 **AMD** ❌<br />
-**DirectX** **+ additional** ✔ <br />
+**Graphics Driver** (DirectX) ✔ <br />
 **GPU** ✔<br />
 **Filesystem** ✔<br />
 **INTEL** ❌<br />
